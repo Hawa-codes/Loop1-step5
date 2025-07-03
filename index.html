@@ -10,34 +10,48 @@
 <body>
     <div class="container">
        <div class="ticket-heading">
-        <h1>
-            <span class="route">FRA</span>
-            <span class="dash">-</span>
-            <span class="route">AMS</span>
-        </h1>
-        <p>
-            <span class="route-a">FRANKFURT</span>
-            <span class="route-b">AMSTERDAM</span>
-        </p>
+          <div class="source">
+            <div class="code">FRA</div>
+            <div class="city">FRANKFURT</div>
+          </div>
+          <div class="dash">-</div>
+          <div class="destination">
+            <div class="code">AMS</div>
+            <div class="city">AMSTERDAM</div>
+          </div>
        </div>
        <div class="ticket-details">
-           <div>FLIGHT 815</div>
-           <div>GATE 23G</div>
-           <div>SEAT 10F</div>
-       </div>
-       <div class="passenger-details">
-           PASSENGER
-           Robert Di Niro
-       </div>
-       <div class="class">
-        CLASS
-        Business
-       </div>
-       <div class="departure">
-           3:45am,Dec 15
-       </div>
-       <div class="qr-code">
-        <img src="./img/qr.svg" alt="QR code">
+         <div class="ticket-row-1">
+          <div class="ticket-item">
+            <span class="label">FLIGHT</span>
+            <p class="value">815</p>
+          </div>
+          <div class="ticket-item">
+            <span class="label">GATE</span>
+            <p class="value">23G</p>
+          </div>
+          <div class="ticket-item">
+            <span class="label">SEAT</span>
+            <p class="value">10F</p>
+          </div>
+         </div>
+         <div class="ticket-row 2">
+           <div class="ticket-item">
+             <span class="label">PASSENGER</span>
+             <p class="value">Robert Di Niro</p>
+           </div>
+           <div class="ticket-item">
+             <span class="label">CLASS</span>
+             <p class="value">Business</p>
+           </div>
+           <div class="ticket-item">
+             <span class="label">DEPARTURE</span>
+             <p class="value">3:45am, Dec 15</p>
+           </div>
+           <div class="ticket-code">
+             <img src="./img/qr.svg" alt="QR code" class="qr-code">
+            </div>
+         </div>
        </div>
     </div>
 </body>
